@@ -22,7 +22,19 @@ const Treanding: FC<TreandingProps> = ({ }) => {
             <div id="pic-cart-div">
                 <div>
                     <Image src={trending1} alt='trending-image-1'></Image>
+                    <p>Just in: Nike Vomero 17</p>
+                </div>
+                <div>
+                    <Image src={trending2} alt='trending-image-2'></Image>
                     <p>Nike Leggings</p>
+                </div>
+                <div>
+                    <Image src={trending3} alt='trending-image-3'></Image>
+                    <p>Air Jordan 1 Mid SE Craft</p>
+                </div>
+                <div>
+                    <Image src={trending4} alt='trending-image-4'></Image>
+                    <p>HBCU Varsity Collection</p>
                 </div>
             </div>
         </div>
