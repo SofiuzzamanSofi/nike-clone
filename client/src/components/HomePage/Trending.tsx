@@ -5,11 +5,7 @@ import trending2 from "../../assets/homePages/trendings/ternding-2.jpeg"
 import trending3 from "../../assets/homePages/trendings/ternding-3.jpeg"
 import trending4 from "../../assets/homePages/trendings/ternding-4.jpeg"
 
-interface TreandingProps {
-
-};
-
-const Treanding: FC<TreandingProps> = ({ }) => {
+const Trending = ({ }) => {
     return (
         <div>
             <div>
@@ -41,4 +37,4 @@ const Treanding: FC<TreandingProps> = ({ }) => {
     );
 };
 
-export default Treanding;
+export default Trending;
