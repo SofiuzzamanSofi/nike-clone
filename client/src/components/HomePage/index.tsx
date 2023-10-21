@@ -7,6 +7,8 @@ import Featured from './Featured';
 import Iconic from './Iconic';
 import ShopBySports from './ShopBySports';
 import NewFallStyles from './NewFallStyles';
+import NikeMembership from './NikeMembership';
+import MenuLists from './MenuLists';
 
 interface indexProps {
 
@@ -23,6 +25,8 @@ const index: FC<indexProps> = ({ }) => {
             <Iconic />
             <ShopBySports />
             <NewFallStyles />
+            <NikeMembership />
+            <MenuLists />
         </section>
     );
 };
