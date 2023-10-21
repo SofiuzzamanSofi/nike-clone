@@ -10,12 +10,12 @@ interface indexProps {
 
 const index: FC<indexProps> = ({ }) => {
     return (
-        <section>
+        <header>
             <UpMiniNavbar />
             <MainNavbar />
             <SliderNavbar />
             <MembershipNavbar />
-        </section>
+        </header>
     );
 };
 

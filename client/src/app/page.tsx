@@ -1,11 +1,7 @@
-import Image from 'next/image'
+import HomePage from "../components/Home"
 
-export default function Home() {
+export default function Index() {
   return (
-    <main >
-      <div>
-        <p className=''>hello</p>
-      </div>
-    </main>
+    <HomePage />
   )
 }
