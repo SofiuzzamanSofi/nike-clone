@@ -1,0 +1,33 @@
+Dear Sofiuzzaman,
+
+We hope this message finds you well. We are impressed by your qualifications and experience, and we are excited to invite you to our interview process. To assess your front-end development skills and creativity, we would like to provide you with a coding task.
+
+**Task: Clone the Front End of Luxury Brand Websites**
+
+Your task is to create an interactive, front-end replica of the following luxury brand websites:
+1. Dior:  https://www.dior.com
+2. Nike: https://www.nike.com
+3. Louis Vuitton:  https://us.louisvuitton.com
+4. Givenchy:  https://www.givenchy.com
+5. Fendi:  https://www.fendi.com/ii-en
+6. Balenciaga: https://www.balenciaga.com/en-en
+
+**Requirements:**
+- Your focus should be on creating an interactive front-end. We are not looking for a fully functional website. 
+- The code should be well-organized and readable
+- The task should be hosted on a public environment like netlify, firebase or anywhere you feel good.
+- You have 5 days to complete the task.  
+
+**Submission:**
+Please provide us with the following:
+1. Your GitHub ID.
+2. The GitHub repository with your code.
+3. A live version of the website.
+
+**Additional Note:**
+We want to let you know that the code you submit might be considered for future projects if we are impressed with your work. By accepting this task, you agree to the conditions mentioned. Once you have completed the task, please reply to this email with your GitHub ID and the relevant links.
+
+If you have any questions or need further clarification, please don't hesitate to reach out. We look forward to seeing your creativity and front-end development skills in action.
+Good luck, and we hope to meet you in the next stage of the interview process!
+
+Best regards,
