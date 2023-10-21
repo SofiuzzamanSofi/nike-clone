@@ -4,6 +4,9 @@ import ThreeInOnePic from './ThreeInOnePic';
 import NewArrivals from './NewArrivals';
 import Trending from './Trending';
 import Featured from './Featured';
+import Iconic from './Iconic';
+import ShopBySports from './ShopBySports';
+import NewFallStyles from './NewFallStyles';
 
 interface indexProps {
 
@@ -17,6 +20,9 @@ const index: FC<indexProps> = ({ }) => {
             <NewArrivals />
             <Trending />
             <Featured />
+            <Iconic />
+            <ShopBySports />
+            <NewFallStyles />
         </section>
     );
 };
