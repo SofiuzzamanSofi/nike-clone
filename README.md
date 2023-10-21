@@ -6,14 +6,11 @@ Nike Clone
 
 This is a [NextJS](https://nextjs.org/) project create with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Live Preview site: [](https:/)
+### Live Preview site: [](https:/) Upcomming...
 
+## Live Demo: Upcomming... 
 
-
-## Live Demo
-Upcomming...
-
-
+<br/>
 
 ## Cloning and Installing dependencies
 
@@ -34,18 +31,7 @@ yarn
 #or
 pnpm
 ```
-## Getting Started
 
-Email & Passwork:
-
-```bash
-Employer:
-        email: employer@gmail.com
-        password: 123456
-Candidate:
-        email:user@gmail.com
-        password: 123456
-```
 
 First, run the development server:
 
@@ -59,8 +45,27 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `src/main.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/layout.tsx`. The page auto-updates as you edit the file.
 
+<br/>
+
+Project Detail:
+
+```bash
+Language:
+        TypeScript
+# 
+Technology:
+        Next.js
+```
 ## Others
 
+<br/>
+
 Comming soon...
+
+<br/>
+
+<h3 align="center">
+**Thank You**
+</h3>
