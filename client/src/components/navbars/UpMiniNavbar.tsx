@@ -1,6 +1,7 @@
 import Image from "next/image";
-import rightArrow from "../../assets/navbars/right-arrow.svg"
-import menWithHandBall from "../../assets/navbars/men-with-hand-ball.svg"
+import rightArrow from "../../assets/navbars/right-arrow.png"
+import menWithHandBall from "../../assets/navbars/men-with-hand-ball.png"
+
 import { FC } from 'react';
 
 interface UpMiniNavbarProps {
