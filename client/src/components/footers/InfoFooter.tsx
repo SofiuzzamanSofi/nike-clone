@@ -1,6 +1,10 @@
 import { FC } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import twitter from "../../assets/footer/twitter.svg"
+import facebook from "../../assets/footer/facebook.svg"
+import youtube from "../../assets/footer/youtube.svg"
+import instagram from "../../assets/footer/instagram.svg"
 
 interface InfoFooterProps {
 
@@ -82,10 +86,10 @@ const InfoFooter: FC<InfoFooterProps> = ({ }) => {
                 </div>
             </div>
             <div>
-                <Image src={""} alt='footer-two-color-image'></Image>
-                <Image src={""} alt='footer-two-color-image'></Image>
-                <Image src={""} alt='footer-two-color-image'></Image>
-                <Image src={""} alt='footer-two-color-image'></Image>
+                <Image src={twitter} alt='footer-twitter-image'></Image>
+                <Image src={facebook} alt='footer-facebook-image'></Image>
+                <Image src={youtube} alt='footer-youtube-image'></Image>
+                <Image src={instagram} alt='footer-instagram-image'></Image>
             </div>
         </div>
     );
