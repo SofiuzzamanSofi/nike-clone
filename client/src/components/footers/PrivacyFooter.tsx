@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import footerTwoColor from "../../assets/footer-two-color.png"
+import footerTwoColor from "../../assets/footer/footer-two-color.png"
 
 interface PrivacyFooterProps {
 
