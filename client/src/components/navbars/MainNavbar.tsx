@@ -1,8 +1,10 @@
 import { FC } from 'react';
 import Image from "next/image"
-import nikeNavbarLogo from "../../assets/navbars/nike-navbar-logo.svg"
-import favoritesLogo from "../../assets/navbars/favorites-logo.svg"
-import cartLogo from "../../assets/navbars/cart-logo.svg"
+// import nikeNavbarLogo from "../../assets/navbars/nike-navbar-logo.svg"
+import nikeNavbarLogo from "../../assets/navbars/nike-header-logo.png"
+import searchLogo from "../../assets/navbars/search.svg"
+import favouriteLogo from "../../assets/navbars/heart.svg"
+import bagLogo from "../../assets/navbars/bag.svg"
 
 interface MainNavbarProps {
 
@@ -13,7 +15,7 @@ const MainNavbar: FC<MainNavbarProps> = ({ }) => {
         <div>
             <div>
                 <button>
-                    <Image src={nikeNavbarLogo} className='h-full w-full' alt='nike-navbar-logo-image' />
+                    <Image src={nikeNavbarLogo} className='h-full w-full text-black' alt='nike-navbar-logo-image' />
                 </button>
             </div>
             <div>
@@ -25,13 +27,15 @@ const MainNavbar: FC<MainNavbarProps> = ({ }) => {
                 </div>
                 <div>
                     <div>
+                        <Image src={searchLogo} className='h-full w-full' alt='search-logo-image' />
                         Search Bar
                     </div>
                     <button>
-                        <Image src={favoritesLogo} className='h-full w-full' alt='favorites-logo-image' />
+                        <Image src={searchLogo} className='h-full w-full' alt='search-logo-image' />
+                        <Image src={favouriteLogo} className='h-full w-full' alt='favourite-logo-image' />
                     </button>
                     <button>
-                        <Image src={cartLogo} className='h-full w-full' alt='cart-logo-image' />
+                        <Image src={bagLogo} className='h-full w-full' alt='bag-logo-image' />
                     </button>
                 </div>
             </div>
