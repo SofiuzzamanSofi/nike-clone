@@ -24,8 +24,8 @@ const UpMiniNavbar: FC<UpMiniNavbarProps> = ({ }) => {
 
     return (
         <div className="bg-primary h-[2.25rem] my-0">
-            <div className="max-w-[120rem] mx-auto border px-9 h-9 flex justify-between items-center text-xs">
-                <div className="w-24 flex justify-between">
+            <div className="max-w-[120rem] mx-auto px-9 h-9 flex justify-between items-center text-xs border border-black">
+                <div className="w-24 flex justify-between border border-black">
                     <button>
                         <Image src={menWithHandBall} className='bg-primary w-6 h-6' alt='men-with-hand-ball-image' />
                     </button>
@@ -33,7 +33,7 @@ const UpMiniNavbar: FC<UpMiniNavbarProps> = ({ }) => {
                         <Image src={rightArrow} className='w-9 h-6' alt='right-arrow-image' />
                     </button>
                 </div>
-                <div className="flex justify-between font-bold">
+                <div className="flex justify-between font-bold border border-black">
                     <button className="px-3 py-0 hover:text-secondary">
                         Nike Refurbished
                     </button>
