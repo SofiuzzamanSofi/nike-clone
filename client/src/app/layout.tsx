@@ -16,6 +16,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  // # responsive design 
+  // mobile 0-1023
+  // tablet/pc < 1024 -1024-1920 >
+
   return (
     <html lang="en">
       <body>
