@@ -20,18 +20,24 @@ const MainNavbar: FC<MainNavbarProps> = ({ }) => {
                     <Image src={nikeNavbarLogo} className='border h-[3.6875rem] w-[6rem] text-black' alt='nike-navbar-logo-image' />
                 </button>
             </div>
-            <div className='font-bold flex gap-6 h-12 border overflow-hidden'>
-                <button className='border-b-2 border-white hover:border-black text-[#111]'>
+            <div className='font-bold flex gap-1 h-12 border overflow-hidden'>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
                     New & Featured
                 </button>
-                <button className='border-b-2 border-white hover:border-black'>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
                     Men
                 </button>
-                <button className='border-b-2 border-white hover:border-black'>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
                     Women
                 </button>
-                <button className='border-b-2 border-white hover:border-black'>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
                     Kids
+                </button>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
+                    Accessories
+                </button>
+                <button className='border-b-2 border-white hover:border-black text-[#111] text-md px-3'>
+                    Sale
                 </button>
             </div>
             <div className=' flex justify-end gap-3 border'>
