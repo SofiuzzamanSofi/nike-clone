@@ -18,7 +18,7 @@ const SliderNavbar: FC<SliderNavbarProps> = ({ }) => {
         };
     }, []);
 
-    console.log('sliderId:', sliderId);
+    // console.log('sliderId:', sliderId);
 
     return (
         <div className="carousel w-full">

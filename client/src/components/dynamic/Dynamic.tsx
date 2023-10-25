@@ -12,7 +12,7 @@ const Dynamic = () => {
 
   return (
     <div
-      className="relative mb-3"
+      className="relative mb-3 hidden"
       data-te-datepicker-init
       data-te-input-wrapper-init
     >
