@@ -13,7 +13,7 @@ interface MainNavbarProps {
 const MainNavbar: FC<MainNavbarProps> = ({ }) => {
     return (
         <div
-            className='max-w-[120rem] mx-auto px-9 pt-1 h-[3.75rem] border border-black flex justify-between items-center '
+            className='max-w-[120rem] mx-auto px-9 pt-1 h-[3.75rem] border border-black flex justify-between items-center border-red-700'
         >
             <div>
                 <button>

@@ -4,6 +4,7 @@ import metaImageMobile from "../../assets/homePages/meta-image-mobile.jpeg"
 import ButtonComponent from '../share/ButtonComponent';
 
 
+
 const ShopNow = ({ }) => {
     return (
         <div className='relative border border-black min-h-[17.25rem]'>
